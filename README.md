@@ -3,7 +3,7 @@
 
 ## Survey Results
 
-__ SurveyData_Raw.xlsx __ contains all the appliance schedule surveyed data where all the names of the respondents were redacted for confidentiality. 
+**SurveyData_Raw.xlsx** contains all the appliance schedule surveyed data where all the names of the respondents were redacted for confidentiality. 
 
 
 
