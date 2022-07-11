@@ -11,6 +11,9 @@
 
 ## City Generation
 
+**probability_data.m** contains the same data in **SurveyResults_ProcessedPercentages.xlsx** but the data were stored as matrices in a single MATLAB file (.m). 
+
+**CityGeneration.m** uses **probability_data.m** as input to convert the survey data results to generate a city with 14,061 households. This is done through Monte Carlo Analysis. This code can use any household appliance schedule survey data with the same format as **probability_data.m**, to generate any number of households. The  generated output households are stored into a matrix with 'H#' as the array name (# corresponds to the number/ID of the specific consumer). Note that the households are saved into MATLAB files in sets of 700. 
 
 ## City Simulation
 
