@@ -7,7 +7,7 @@
 
 - **SurveyData_Filtered.xlsx** contains the filtered data. The raw survey data was filtered to check for validity of respondents answers. This is to ensure that there are no contradictions in all parameters in the respondents answers. Slight modifications were done for typo errors and invalid (unclear, incomplete, contradicting, etc.) survey answers were not included to the filtered survey results. 
 
-- **SurveyResults_ProcessedPercentages.xlsx** contains the required percentage distributions for all the included appliance parameters in the project. This was created based from the filtered survey data. 
+- **SurveyResults_ProcessedPercentages.xlsx** contains the required percentage distributuions for all the included appliance parameters in the project. This was created based from the filtered survey data. 
 
 ## City Generation
 
@@ -19,6 +19,6 @@
 
 ## City Simulation
 
-**CityWideWithHASS.m** contains the BPSO-based HASS scheduler that 
+**CityWideWithHASS.m** contains the BPSO-based HASS scheduler that takes the generated household userinputs from **CityGeneration.m** as inputs, and simulate the city in consideration of HASS. This outputs the average electricity cost, peak demand, PAR, 
 
 ## City Simulation Results
