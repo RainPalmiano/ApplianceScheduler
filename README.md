@@ -1,3 +1,14 @@
-# ApplianceScheduler Code Instruction Guide
+# Appliance Scheduler Important Notes and Instructions
 
-** City Generation **
+
+## Survey Results
+
+
+
+## City Generation
+
+
+## City Simulation
+
+
+## City Simulation Results
