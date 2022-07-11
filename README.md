@@ -20,5 +20,7 @@
 - **BatteryCode.m** contains the battery/ESS function that is used by **CityWideWithHASS.m**. This outputs the battery charge/discharge schedule stored in a 1x24 array. Positive if charging, negative if discharging.
 - **EVCode.m** contains the EV function that is used by **CityWideWithHASS.m**. This outputs the EV charge schedule where the charging operation is optimized to flat the household load curve. 
 - **tou_rates24.m** contains the TOU pricing scheme data used in this project (MERALCO POP rates)
+- **CityWithoutHASS.m** is also a city wide simulation but the BPSO-based HASS scheduler is not included in the simulation. This simulation pertains to the "original schedule" or the 100% satisfaction schedule (all appliances and EV are scheduled to operate as early as possible in the user desired time frame). The uses the same functions and inputs as **CityWideWithHASS.m** and also provides the same output parameters. (the main difference is the presence of HASS)
+- **userinputs folder** contains all the required user inputs for the simulation. **userinput<1-20>.m** are the output of **CityGeneration.m** that is used in the city-wide simulation, while **userinput_testcases.m** contains the most probable schedule per household type (that are used in the sensitivity & flexibility analysis). 
 
 ## City Simulation Results
