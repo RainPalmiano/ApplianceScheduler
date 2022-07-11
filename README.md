@@ -26,3 +26,4 @@
 ## Simulation Results
 
 - **CityWideSimulationResults.xlsx** contains the detailed city wide simulation results. This includes the hourly demand, total cost, and average user satisfaction all aggregated per userinput file. This contains several sheets that pertains to the specific case the city were simulated on (Appliances only, EV only, ESS Only, PV only, all of them combined, etc.).
+- **SensFlexiAnalysis.xlsx** contains the detailed results of sensitivity and flexibility analysis. This includes the fitness and number of valid schedules of all vmax, c1, c2 test values for each scheduler state (app prio only, ev only, combined) and the average cost, peak demand, PAR, and user satisfaction of each household under varying conditions. 
