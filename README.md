@@ -1,3 +1,3 @@
 # ApplianceScheduler Code Instruction Guide
 
-% City Generation
+** City Generation **
