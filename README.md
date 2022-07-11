@@ -24,3 +24,5 @@
 - **userinputs folder** contains all the required user inputs for the simulation. **userinput<1-20>.m** are the outputs of **CityGeneration.m** that is used in the city-wide simulation, while **userinput_testcases.m** contains the most probable schedule per household type that are used in the sensitivity & flexibility analysis. 
 
 ## Simulation Results
+
+- **CityWideSimulationResults.xlsx** contains the detailed city wide simulation results. This includes the hourly demand, total cost, and average user satisfaction all aggregated per userinput file. This contains several sheets that pertains to the specific case the city were simulated on (Appliances only, EV only, ESS Only, PV only, all of them combined, etc.).
